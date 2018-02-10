@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 去除二级导航上下之间的间距 */
+.el-menu-item-group__title {
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+.el-menu-item.is-active {
+    color: #409EFF;
+    border-right: 2px solid #409EFF;
+    background: -webkit-linear-gradient(to left, white, rgba(135, 206, 255, .5));
+    background: -o-linear-gradient(to left, white, rgba(135, 206, 255, .5));
+    background: linear-gradient(to left, white, rgba(135, 206, 255, .5));
+}
+.el-submenu.is-active.is-opened .el-submenu__title{
+    border-bottom: 1px solid #e6e6e6;
+}
+.el-submenu.is-active.is-opened .el-submenu__title{
+    color: #409EFF;
+}
+.el-submenu.is-active.is-opened .el-submenu__title .iconfont,
+.el-submenu.is-active.is-opened .el-submenu__title .el-submenu__icon-arrow.el-icon-arrow-down{
+    color: #409EFF;
+}
+/* 表头的背景颜色 */
+.el-table .has-gutter th{
+    background-color: #f4f4f4;
+    color: black;
+    font-size: 16px;
+}
+/* 控制表格的高度 */
+.el-table td{
+    padding: 8px 0;
+}
+/* .el-table__expanded-cell{
+    background-color: #f4f4f4;
+} */
+.el-collapse-item__header{
+    font-size: 16px;
+    font-weight: 700;
+}
+.el-collapse{
+    padding-bottom: 20px; 
+}
+/* 对话框 */
+.el-dialog.successOperate{
+    width: 28%;
+}
+.el-dialog__header{
+    background-color: #fafafa;;
+    border-bottom: 1px solid #f4f4f4;
+    text-align: center;
+}
+.el-dialog__footer{
+    background-color: #fafafa;;
+    border-top: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+.el-dialog__body{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.el-form-item{
+    margin-bottom: 10px;
+}
+.el-form-item:last-child{
+    margin-bottom: 0;
+}
+.el-dialog__footer .el-button{
+    height: 30px;
+    padding: 0;
+    width: 60px;
+}
+/* 折叠菜单 */
+.el-collapse-item__content{
+    padding-bottom: 15px;
+}
+.el-collapse{
+    border-bottom: 0;
+}
+/* 详情表格 */
+.el-table thead.is-group th{
+    background-color: #f4f4f4;
+}
+td.el-table__expanded-cell{
+    padding-left: 60px !important;
+}
+/* 表格 */
+.el-table--border{
+    border-radius: 4px;
+}
+.el-table td, .el-table th{
+    padding: 5px 0;
+}
+.el-table .cell, .el-table th div, .el-table--border td:first-child .cell, .el-table--border th:first-child .cell{
+    padding-left: 5px;
+}
+.el-table .cell, .el-table th div{
+    padding-right: 5px;
+}

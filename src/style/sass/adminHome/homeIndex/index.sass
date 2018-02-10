@@ -1,0 +1,77 @@
+.el-header
+    background-color: #409EFF
+    display: flex
+    justify-content: space-between
+    .heard_left
+        width: 200px
+        height: 60px
+        line-height: 60px
+        img 
+            vertical-align: top
+        img:nth-child(1) 
+            margin-top: 10px
+            margin-right: 6px
+        img:nth-child(2) 
+            margin-top: 12px
+        .goBack
+            cursor: pointer
+    .heard_right
+        .iconfontele
+            color: white
+            margin-right: 10px
+            width: 25px
+            height: 25px
+            font-size: 25px
+            vertical-align: top
+            margin-top: 16px
+            border: 1px solid white
+            &:hover
+                cursor: pointer
+        .el-button.el-button--default
+            width: 60px
+            height: 30px
+            padding: 0
+            margin-left: 10px
+        span
+            line-height: 60px
+            color: white
+.el-container
+    .el-aside
+        .time
+            position: fixed
+            bottom: 0
+            width: 199px
+            text-align: center
+            border-top: solid 1px #e6e6e6
+            border-right: solid 1px #e6e6e6
+            background: -webkit-linear-gradient(to left, white, rgba(135, 206, 255, .5))
+            background: -o-linear-gradient(to left, white, rgba(135, 206, 255, .5))
+            background: linear-gradient(to left, white, rgba(135, 206, 255, .5))
+            p
+                width: 100%
+                text-align: center
+                padding-bottom: 5px
+        .tac.el-row
+            .el-col.el-col-24
+                .menu-top
+                    text-align: center
+                    height: 60px
+                    line-height: 60px
+                    border-right: solid 1px #e6e6e6
+                    border-bottom: solid 1px #e6e6e6
+                .el-menu
+                    padding-bottom: 60px
+.el-main
+    padding: 10px
+    .tabs
+        width: 89.5%
+        display: inline-block
+        overflow-x: scroll
+        &::-webkit-scrollbar
+            display: none
+    .el-dropdown
+        float: right
+        vertical-align: top
+        margin-top: 13px
+.iconfont
+    margin-right: 6px
