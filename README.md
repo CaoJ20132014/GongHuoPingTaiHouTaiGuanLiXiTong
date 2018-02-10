@@ -1,6 +1,6 @@
 # jifenka
 
-> A Vue.js project
+> A Vue.js project vue+element-ui
 
 ## Build Setup
 
